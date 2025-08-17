@@ -1,9 +1,9 @@
 Backend Recruitment Task
 
 
-Run it as (npm install && npm start)
-Access the API at localhost:3000/cities
-Query params are country page limit
+Run it as (npm install && npm start) <br/>
+Access the API at localhost:3000/cities <br/>
+Query params are country page limit 
 
 Determination of the valid city name is done in 3 steps:
 
