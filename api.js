@@ -41,10 +41,7 @@ const cities = async (req, res) => {
 
           cities = await response.json();
         }
-        if (!response.ok)
-          throw new Error(`HTTP error! status: ${response.status}`)
-        console.log(cities)
-
+      
       cleaned_cities =  cities.results.map(async (city) =>
           {
             let name = city.name.toLowerCase().replace(/\([^)]*\)/, "")
