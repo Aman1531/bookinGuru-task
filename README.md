@@ -1,6 +1,6 @@
 Backend Recruitment Task
 
-How to run
+
 Run it as (npm install && npm start)
 
 Determination of the valid city name is done in 3 steps:
