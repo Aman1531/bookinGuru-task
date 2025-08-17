@@ -8,7 +8,7 @@ Optional Query params are country page limit
 Determination of the valid city name is done in 3 steps:
 
  The extra data at the begining & end of the name is removed .
- At the begining of the name there can generic nouns like station district followed by hyphen
+ At the begining of the name there can be generic nouns like station district followed by hyphen
  this fact can be used to construct the regex 
  Trailing strings are the generic nouns in brackets like (Zone), (District)
  
